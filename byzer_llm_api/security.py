@@ -8,7 +8,7 @@ from passlib.context import CryptContext
 from pydantic import BaseModel
 from sqlmodel import Field, Relationship, Session, SQLModel
 
-from project_name.models.content import Content, ContentResponse
+from byzer_llm_api.models.content import Content, ContentResponse
 
 from .config import settings
 from .db import engine
